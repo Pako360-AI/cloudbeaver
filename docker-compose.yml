@@ -7,6 +7,6 @@ services:
     container_name: cloudbeaver
     restart: unless-stopped
     ports:
-      - "8200:8978"
+      - "8350:8978"
     volumes:
       - ./workspace:/opt/cloudbeaver/workspace
